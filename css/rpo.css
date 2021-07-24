@@ -1,0 +1,16 @@
+/*estilo de fuente*/
+body{
+    font-family: 'Poppins';
+}
+/*estilos del header*/
+.header{
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+    background-image: linear-gradient(to right, #68c6e2 , #036ec3);
+}
+
+.logo{
+    width: 150px;
+}
+

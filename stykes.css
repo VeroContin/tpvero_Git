@@ -1,0 +1,122 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+/*estilo de fuente*/
+body{
+    font-family: 'Poppins';
+}
+/*estilos del header*/
+.header{
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+    background-image: linear-gradient(to right, #68c6e2 , #036ec3);
+}
+
+.logo{
+    width: 150px;
+}
+
+.img_header{
+    width: 400px;
+    height: auto;
+    display: flex;
+}
+
+.wrapper_body{
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+p{
+    color: #848484;
+}
+/*estilos servicios*/
+.services_links{
+    display:flex;
+    list-style: none;
+}
+
+.services_links li{
+    width: 33%;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px #dedede;
+    box-shadow: 1px 1px 12px #c5c5c5;
+    padding: 10px;
+
+/*transformaciones*/
+.img:hover {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/*estilos de la tabla*/
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border:1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+  background-color: #c8cfcd;
+  color: white;
+}
+/*estilos del footer*/
+footer{
+    display: inline-flex;
+}
+
+footer ul li{
+    list-style: none;
+}
+.center{
+    text-align: right;
+}
+
+/*Flexbox*/
+.quehacemos{
+    display: flex;
+    background-color: lightsteelblue;
+    color: white;
+    border: 3px solid;
+    border-color: mediumvioletred;
+    margin: 20px;
+    padding: 16px;
+    flex-direction: column;
+}
+
+/*estilos de elementos*/
+section{
+    background-color: lightgray;
+}
+
+/*estilos html RPO*/
+
+.contenedor {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.index-RPO h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.articulos{
+    display: flex;
+    justify-content: space-around;
+}
+.articulos article{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
